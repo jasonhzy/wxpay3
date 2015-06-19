@@ -7,17 +7,17 @@ class WxPayConf_pub
 {
 	//=======【基本信息设置】=====================================
 	//微信公众号身份的唯一标识。审核通过后，在微信发送的邮件中查看
-	const APPID = 'wxbcdc21d2a28ffd3f';
+	const APPID = '';
 	//受理商ID，身份标识
-	const MCHID = '1243435502';
+	const MCHID = '';
 	//商户支付密钥Key。审核通过后，在微信发送的邮件中查看
-	const KEY = 'S2L5ltpIYOs67RVeiUAAa6jHphTuzdiu';
+	const KEY = '';
 	//JSAPI接口中获取openid，审核后在公众平台开启开发模式后可查看
-	const APPSECRET = '9d3a15ea31d03fb6e0bdeb2f2dbb3556';
+	const APPSECRET = '';
 	
 	//=======【JSAPI路径设置】===================================
 	//获取access_token过程中的跳转uri，通过跳转将code传入jsapi支付页面
-	const JS_API_CALL_URL = 'http://www.pinet.cc/wxpay/js_api_call.php';
+	const JS_API_CALL_URL = 'http://www.xxx.cc/wxpay3/js_api_call.php';
 	
 	//=======【证书路径设置】=====================================
 	//证书路径,注意应该填写绝对路径
