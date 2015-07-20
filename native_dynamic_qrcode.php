@@ -6,7 +6,7 @@
  * 此URL直接生成二维码，用户扫码后调起支付。
  * 
 */
-	include_once("../WxPayPubHelper/WxPayPubHelper.php");
+	include_once("./WxPayPubHelper/WxPayPubHelper.php");
 
 	//使用统一支付接口
 	$unifiedOrder = new UnifiedOrder_pub();

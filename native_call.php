@@ -12,7 +12,7 @@
  * 
 */
 	include_once("./log_.php");
-	include_once("../WxPayPubHelper/WxPayPubHelper.php");
+	include_once("./WxPayPubHelper/WxPayPubHelper.php");
 	
 	//以log文件形式记录回调信息，用于调试
 	$log_ = new Log_();
