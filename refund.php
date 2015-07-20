@@ -8,7 +8,7 @@
  * 金券金额不能退款)。
 */
 
-	include_once("../WxPayPubHelper/WxPayPubHelper.php");
+	include_once("./WxPayPubHelper/WxPayPubHelper.php");
 
 	//输入需退款的订单号
 	if (!isset($_POST["out_trade_no"]) || !isset($_POST["refund_fee"]))
@@ -19,7 +19,7 @@
 	    $out_trade_no = $_POST["out_trade_no"];
 	    $refund_fee = $_POST["refund_fee"];
 		//商户退款单号，商户自定义，此处仅作举例
-		$out_refund_no = "$out_trade_no"."$time_stamp";
+		$out_refund_no = "$out_trade_no".time();
 		//总金额需与订单号out_trade_no对应，demo中的所有订单的总金额为1分
 		$total_fee = "1";
 		

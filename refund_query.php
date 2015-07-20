@@ -5,7 +5,7 @@
  * 
  * 
 */
-	include_once("../WxPayPubHelper/WxPayPubHelper.php");
+	include_once("./WxPayPubHelper/WxPayPubHelper.php");
 
 	//要查询的订单号
 	if (!isset($_POST["out_trade_no"]))

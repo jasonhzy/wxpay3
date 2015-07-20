@@ -6,9 +6,9 @@
  * 当支付通知处理异常或丢失的情况，商户可以通过该接口查询订单支付状态。
  * 
 */
-	include_once("../WxPayPubHelper/WxPayPubHelper.php");
+	include_once("./WxPayPubHelper/WxPayPubHelper.php");
 	
-	//退款的订单号
+	//订单号
 	if (!isset($_POST["out_trade_no"]))
 	{
 		$out_trade_no = " ";
